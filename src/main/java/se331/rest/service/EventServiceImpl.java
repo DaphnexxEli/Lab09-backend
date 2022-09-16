@@ -27,5 +27,8 @@ public class EventServiceImpl implements EventService {
     public Event getEvent(Long id) {
         return eventDao.getEvent(id);
     }
+    public Event save(Event event){
+        return eventDao.save(event);
+    }
 }
 
